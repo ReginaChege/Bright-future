@@ -1,0 +1,52 @@
+body{
+    margin-left: 100px;
+}
+.nav{
+    display: flex;
+    text-decoration: none;
+    gap: 50px;
+}
+.W{
+    font-size: 30px;
+}
+.cubid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: -20%;
+}
+#cubid{
+    width: 700px;
+    height: 400px;
+}
+#first{
+    color: white;
+}
+.side{
+    background-color: #00001a;
+    width: 700px;
+}
+.Bright{
+    display: flex;
+    gap: 90px;
+}
+.heading1{
+    font-size: 50px;
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 100px;
+}
+.all{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.three{
+    display: flex;
+    gap: 10px;
+}
+#three{
+    width: 200px;
+    height: 200px;
+}
