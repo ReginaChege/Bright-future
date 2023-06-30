@@ -4,16 +4,15 @@ body{
 }
 #navbars a{
     text-decoration: none;
-    padding: 15px 60px;
-justify-content: space-between;
-width: 100%;
-margin-top: 70px;
-color: black;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 70px;
+    color: black;
 }
 .nav{
     display: flex;
-    margin-top: 50px;
-    gap: 300px;
+    margin-top: 40px;
+    gap: 100px;
 }
 .W{
     font-size: 30px;
