@@ -1,18 +1,27 @@
 body{
     margin-left: 100px;
 }
+#navbars a{
+    text-decoration: none;
+    padding: 15px 60px;
+justify-content: space-between;
+width: 100%;
+margin-top: 70px;
+color: black;
+}
 .nav{
     display: flex;
-    text-decoration: none;
-    gap: 50px;
+    margin-top: 50px;
+    gap: 520px;
 }
 .W{
     font-size: 30px;
+    margin-top: -4%;
 }
 .cubid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: -20%;
+    gap: -5%;
 }
 #cubid{
     width: 700px;
@@ -20,12 +29,25 @@ body{
 }
 #first{
     color: white;
+    font-weight: 50px;
+    font-size: 20px;
+    margin-left: 40px;
 }
 .side{
     background-color: #00001a;
-    width: 700px;
+    width: 500px;
+    height: 600px;
 }
-.Bright{
+.paragraph{
+    margin-left: 40px;
+    color: white;
+}
+
+#new{
+color: orange;
+margin-left: 40px;
+}
+.bright{
     display: flex;
     gap: 90px;
 }
@@ -41,6 +63,10 @@ button{
 .all{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+}
+h4{
+    color:  grey;
+    font-size: 25px;
 }
 .three{
     display: flex;
