@@ -1,0 +1,177 @@
+body {
+    margin-left: 100px;
+}
+
+#navbars a {
+    text-decoration: none;
+    padding: 15px 60px;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 70px;
+    color: black;
+}
+
+.nav {
+    display: flex;
+    margin-top: 50px;
+    gap: 400px;
+}
+
+.W {
+    font-size: 30px;
+    margin-top: -4%;
+}
+
+.cubid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+}
+
+#cubid {
+    width: 700px;
+    height: 400px;
+}
+
+#first {
+    color: white;
+    font-weight: 50px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.side {
+    background-color: #00001a;
+    width: 500px;
+    height: 600px;
+}
+
+.paragraph {
+    margin-left: 40px;
+    color: white;
+}
+
+#new {
+    color: orange;
+    margin-left: 40px;
+}
+
+.bright {
+    display: flex;
+    gap: 90px;
+}
+
+.heading1 {
+    font-size: 50px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 100px;
+}
+
+.all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h4 {
+    color: grey;
+    font-size: 25px;
+}
+
+.three {
+    display: flex;
+    gap: 10px;
+}
+
+#three {
+    width: 200px;
+    height: 200px;
+}
+
+/* Media Query Styling */
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin-left: 50px;
+    }
+
+    .nav {
+        gap: 200px;
+    }
+
+    .cubid {
+        grid-template-columns: 1fr;
+        gap: 2%;
+    }
+
+    #cubid {
+        width: 100%;
+        height: 300px;
+    }
+
+    .side {
+        width: 100%;
+        height: 400px;
+    }
+
+    .paragraph {
+        margin-left: 20px;
+    }
+
+    .bright {
+        gap: 50px;
+    }
+
+    .all {
+        grid-template-columns: 1fr;
+    }
+
+    #three {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        margin-left: 20px;
+    }
+
+    .nav {
+        gap: 100px;
+    }
+
+    .cubid {
+        gap: 1%;
+    }
+
+    #cubid {
+        height: 200px;
+    }
+
+    .side {
+        height: 300px;
+    }
+
+    .paragraph {
+        margin-left: 10px;
+    }
+
+    .bright {
+        gap: 30px;
+    }
+
+    .all {
+        grid-template-columns: 1fr;
+    }
+
+    #three {
+        width: 100%;
+        height: 100px;
+    }
+}
+
